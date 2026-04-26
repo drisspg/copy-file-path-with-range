@@ -2,12 +2,12 @@
   "name": "copy-file-path-with-range",
   "displayName": "Copy File Path with Range",
   "description": "Copy file path with range to provide as context to coding assistants",
-  "publisher": "ChangWang",
-  "version": "1.0.2",
+  "publisher": "drisspg",
+  "version": "1.0.3",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cheapsteak/copy-file-path-with-range"
+    "url": "https://github.com/drisspg/copy-file-path-with-range"
   },
   "license": "MIT",
   "engines": {
@@ -84,5 +84,6 @@
     "npm-run-all": "^4.1.5",
     "sharp": "^0.34.3",
     "typescript": "^5.8.3"
-  }
+  },
+  "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8"
 }

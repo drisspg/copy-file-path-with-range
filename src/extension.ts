@@ -2,8 +2,6 @@ import * as vscode from 'vscode';
 import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
-	console.log('Extension "copy-file-path-with-range" is now active!');
-
 	const copyRelativePath = vscode.commands.registerCommand('copy-file-path-with-range.copyRelativePath', () => {
 		copyPathWithRange(false);
 	});
@@ -98,7 +96,7 @@ function getRelativePath(absolutePath: string): string {
 
 function copyToClipboard(text: string) {
 	vscode.env.clipboard.writeText(text).then(() => {
-		vscode.window.showInformationMessage(`Copied: ${text}`);
+		vscode.window.setStatusBarMessage('Copied path with range', 2000);
 	}, (error) => {
 		vscode.window.showErrorMessage(`Failed to copy: ${error}`);
 	});

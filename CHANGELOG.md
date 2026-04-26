@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "copy-file-path-with-range" extension will be documented in this file.
+## 1.0.4
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Removed template files and unused development/test dependencies.
+- Removed activation console logging.
+- Replaced the full copied-path notification with a short status bar message.
+- Reduced packaged VSIX contents to runtime files only.
 
-## [Unreleased]
+## 1.0.3
 
-- Initial release
+- Forked for Driss's path-range context workflow.
